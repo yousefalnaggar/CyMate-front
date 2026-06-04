@@ -56,7 +56,18 @@ CyMate is a comprehensive cybersecurity platform that combines automated securit
    ```
 
 4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application. With No Functionality (Client Side Only)
+
+5. for Backend Integration
+
+   - Django Community Backend
+     ```sh
+     git clone https://github.com/mohamedomarr/cymate.git
+     ```
+   - Node.js Toolkit Backend
+     ```sh
+     git clone https://github.com/fortestjr/grad-proj-final.git
+     ```
 
 
 ## 🏗️ Architecture
@@ -168,41 +179,6 @@ cymate-react18.2/
 - **Tool Marketplace**: Third-party security tools integration
 - **Resource Library**: Templates, guides, and documentation
 - **Developer Portal**: API documentation and SDKs
-
-## 🔧 Configuration
-
-### Theme Configuration
-
-The application supports both light and dark themes with automatic system preference detection. Customize themes in:
-
-- `app/globals.css` - CSS variables and base styles
-- `tailwind.config.ts` - Tailwind theme configuration
-- `components/theme-provider.tsx` - Theme context provider
-
-### Component Customization
-
-Components are built with Radix UI and styled with Tailwind CSS. Customize in:
-
-- `components/ui/` - Base UI components
-- `app/(main)/components/` - Application-specific components
-- `lib/utils.ts` - Utility functions
-
-## 📱 Responsive Design
-
-CyMate is fully responsive and optimized for:
-
-- **Desktop**: Full-featured experience with sidebar navigation
-- **Tablet**: Adaptive layout with collapsible sidebar
-- **Mobile**: Touch-friendly interface with bottom navigation
-
-
-### Code Style
-
-- Use TypeScript for type safety
-- Follow ESLint configuration
-- Use Prettier for code formatting
-- Write meaningful commit messages
-- Add comments for complex logic
 
 ## 📄 License
 
